@@ -1,0 +1,41 @@
+/* RESET */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(222, 222, 222, 0.9);
+}
+
+header {
+    background-color: rgb(182, 182, 0);
+    grid-area: h;
+}
+
+main {
+    background-color: tomato;
+    grid-area: m;
+
+}
+
+aside {
+    background-color: rgb(5, 222, 1);
+    grid-area: a;
+
+}
+
+footer {
+    background-color: rgb(53, 26, 255);
+    grid-area: f;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas:
+        "h h"
+        "m a"
+        ". f"
+}

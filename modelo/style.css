@@ -1,0 +1,25 @@
+/* RESET */
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(9, 138, 224);
+}
+
+header{
+    background-color: yellow;
+    height: 100px;
+}
+
+main{
+    background-color: tomato;
+    height: 100px;
+}
+aside{
+    background-color: yellowgreen;
+    height: 100px;
+}
+footer{
+    background-color: snow;
+    height: 100px;
+}
